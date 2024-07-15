@@ -3401,12 +3401,25 @@ button:disabled,
 
 }
 
-body {
-	background-image: url('images/bg.jpg');
-	background-size: cover;
-	/* Makes sure the image covers the entire background */
-	background-repeat: no-repeat;
-	/* Prevents the image from repeating */
-	background-position: center center;
-	/* Centers the image */
+/* Map */
+.map-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	/* 16:9 ratio */
+	width: 80%;
+	margin: 0 auto;
+	/* Center horizontally */
+	overflow: hidden;
+}
+
+.map-container iframe {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	/* Adjust width as needed */
+	height: 70%;
+	/* Adjust height as needed */
+	border: none;
 }
