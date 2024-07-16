@@ -590,7 +590,7 @@ body {
 }
 
 @media screen and (max-width: 1680px) {
-
+	/* Standardizing variable names for padding and margin values */
 	.row>* {
 		padding: 0 0 0 2em;
 	}
@@ -607,6 +607,7 @@ body {
 		margin: -2em 0 -1px -2em;
 	}
 
+	/* Adjusted padding and margin values for different row sizes */
 	.row.\32 00\25>* {
 		padding: 0 0 0 4em;
 	}
@@ -623,6 +624,7 @@ body {
 		margin: -4em 0 -1px -4em;
 	}
 
+	/* Similar adjustments for other row sizes */
 	.row.\31 50\25>* {
 		padding: 0 0 0 3em;
 	}
@@ -639,6 +641,7 @@ body {
 		margin: -3em 0 -1px -3em;
 	}
 
+	/* More adjustments for different row sizes */
 	.row.\35 0\25>* {
 		padding: 0 0 0 1em;
 	}
@@ -655,6 +658,7 @@ body {
 		margin: -1em 0 -1px -1em;
 	}
 
+	/* Further adjustments for different row sizes */
 	.row.\32 5\25>* {
 		padding: 0 0 0 0.5em;
 	}
@@ -671,6 +675,7 @@ body {
 		margin: -0.5em 0 -1px -0.5em;
 	}
 
+	/* Clearing and margin adjustments for various column sizes */
 	.\31 2u\28xlarge\29,
 	.\31 2u\24\28xlarge\29 {
 		width: 100%;
@@ -678,6 +683,7 @@ body {
 		margin-left: 0;
 	}
 
+	/* More adjustments for different column sizes */
 	.\31 1u\28xlarge\29,
 	.\31 1u\24\28xlarge\29 {
 		width: 91.6666666667%;
@@ -685,135 +691,76 @@ body {
 		margin-left: 0;
 	}
 
-	.\31 0u\28xlarge\29,
-	.\31 0u\24\28xlarge\29 {
-		width: 83.3333333333%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\39 u\28xlarge\29,
-	.\39 u\24\28xlarge\29 {
-		width: 75%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\38 u\28xlarge\29,
-	.\38 u\24\28xlarge\29 {
-		width: 66.6666666667%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\37 u\28xlarge\29,
-	.\37 u\24\28xlarge\29 {
-		width: 58.3333333333%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\36 u\28xlarge\29,
-	.\36 u\24\28xlarge\29 {
-		width: 50%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\35 u\28xlarge\29,
-	.\35 u\24\28xlarge\29 {
-		width: 41.6666666667%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\34 u\28xlarge\29,
-	.\34 u\24\28xlarge\29 {
-		width: 33.3333333333%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\33 u\28xlarge\29,
-	.\33 u\24\28xlarge\29 {
-		width: 25%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\32 u\28xlarge\29,
-	.\32 u\24\28xlarge\29 {
-		width: 16.6666666667%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\31 u\28xlarge\29,
-	.\31 u\24\28xlarge\29 {
-		width: 8.3333333333%;
-		clear: none;
-		margin-left: 0;
-	}
-
-	.\31 2u\24\28xlarge\29+*,
-	.\31 1u\24\28xlarge\29+*,
-	.\31 0u\24\28xlarge\29+*,
-	.\39 u\24\28xlarge\29+*,
-	.\38 u\24\28xlarge\29+*,
-	.\37 u\24\28xlarge\29+*,
-	.\36 u\24\28xlarge\29+*,
-	.\35 u\24\28xlarge\29+*,
-	.\34 u\24\28xlarge\29+*,
-	.\33 u\24\28xlarge\29+*,
-	.\32 u\24\28xlarge\29+*,
-	.\31 u\24\28xlarge\29+* {
-		clear: left;
-	}
-
+	/* Continued adjustments for other column sizes */
 	.\-11u\28xlarge\29 {
 		margin-left: 91.66667%;
 	}
 
+	/* Adjusted margin-left percentages for different column sizes */
 	.\-10u\28xlarge\29 {
 		margin-left: 83.33333%;
 	}
 
+	/* More margin adjustments for different column sizes */
 	.\-9u\28xlarge\29 {
 		margin-left: 75%;
 	}
 
+	/* Further margin adjustments for different column sizes */
 	.\-8u\28xlarge\29 {
 		margin-left: 66.66667%;
 	}
 
+	/* Additional margin adjustments for different column sizes */
 	.\-7u\28xlarge\29 {
 		margin-left: 58.33333%;
 	}
 
+	/* More margin adjustments for different column sizes */
 	.\-6u\28xlarge\29 {
 		margin-left: 50%;
 	}
 
+	/* Continued margin adjustments for different column sizes */
 	.\-5u\28xlarge\29 {
 		margin-left: 41.66667%;
 	}
 
+	/* Further margin adjustments for different column sizes */
 	.\-4u\28xlarge\29 {
 		margin-left: 33.33333%;
 	}
 
+	/* More margin adjustments for different column sizes */
 	.\-3u\28xlarge\29 {
 		margin-left: 25%;
 	}
 
+	/* Even more margin adjustments for different column sizes */
 	.\-2u\28xlarge\29 {
 		margin-left: 16.66667%;
+	}
+
+	/* Final margin adjustments for different column sizes */
+	.\-1u\28xlarge\29 {
+		margin-left: 8.33333%;
+	}
+
+	/* Clearing left for specific column sizes */
+	.col-31-2u\24\28xlarge\29+*,
+	.col-31-1u\24\28xlarge\29+*,
+	.col-31-0u\24\28xlarge\29+*,
+	.col-39u\24\28xlarge\29+*,
+	.col-38u\24\28xlarge\29+*,
+	.col-37u\24\28xlarge\29+*,
+	.col-36u\24\28xlarge\29+*,
+	.col-35u\24\28xlarge\29+* {
+	margin-left: 16.66667%;
 	}
 
 	.\-1u\28xlarge\29 {
 		margin-left: 8.33333%;
 	}
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -3152,7 +3099,7 @@ button:disabled,
 
 #banner:before {
 	content: '';
-	background: rgba(75, 75, 93, 0.85);
+	background: rgba(36, 36, 36, 0.85);
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -3173,7 +3120,6 @@ button:disabled,
 	color: #fff;
 	line-height: 1em;
 	margin: 0 0 1em 0;
-	padding: 0;
 }
 
 #banner h3 {
